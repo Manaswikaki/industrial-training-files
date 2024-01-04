@@ -1,0 +1,43 @@
+.d{
+    height:900px;
+    background-color:rgb(168, 163, 163);
+    position:fixed;
+}
+.h{
+    font-size:30px;
+
+}
+.d1{
+    height:200px;
+    width:250px;
+    background-color:white;
+    float:left;
+    margin:50px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom:5px;
+    margin-top:20px;
+}
+.d2{
+    height:20px;
+}
+.b{
+    height:40px;
+    width:125px;
+    background-color: magenta;
+    border-radius: 10px;
+    border:none;
+    color:white;
+}
+.d3{
+    height:50px;
+    width:50px;
+    border-radius: 30px;
+    margin-left:30px; 
+}
+.i{
+    height:40px;
+    width:40px;
+    position:relative;
+    left:5px;
+}

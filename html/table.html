@@ -1,0 +1,120 @@
+<html>
+    <head>
+        <title>tables</title>
+    </head>
+    <body>
+        <center><h2>Table in html</h2></center>
+        <table border="">
+            <tr>
+                <th>S.No</th>
+                <th>College</th>
+                <th>Branch</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>AEC</td>
+                <td>CME</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>ACET</td>
+                <td>CCN</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>ACE</td>
+                <td>ECE</td>
+            </tr>
+        </table>
+   <!--colspan is used to merge the column ,rowspan is used to merge the rows<td rospan="3"-->
+    <table border="">
+        <tr>
+            <th>S.No</th>
+            <th>College</th>
+            <th>Branch</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td rowspan="3">AEC</td>
+            <td>CME</td>
+        </tr>
+        <tr>
+            <td>2</td>
+           <!--- <td>ACET</td>-->
+            <td>CCN</td>
+        </tr>
+        <tr>
+            <td>3</td>
+          <!---  <td>ACE</td>-->
+            <td>ECE</td>
+        </tr>
+    </table>
+    <table border="">
+        <tr>
+            <th>S.No</th>
+            <th colspan="2">College</th>
+            
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>AEC</td>
+            <td>CME</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>ACET</td>
+            <td>CCN</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>ACE</td>
+            <td>ECE</td>
+        </tr>
+    </table>
+    <center>
+    <table border="">
+        <tr>
+            <th colspan="2"> Language and Frameworks</th>
+        </tr>
+        <tr>
+            <td>Python</td>
+            <td>Django</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Javascript</td>
+            <td>react.js</td>
+        </tr>
+        <tr>
+            <td>Vue.js</td>
+        </tr>
+        <tr>
+            <td>
+                Ruby
+            </td>
+            <td>Ruby on Rails</td>
+        </tr>
+
+    </table></center>
+    <table border="">
+        <tr>
+            <td>columu 1</td>
+            <td>columu 2</td>
+            <td>columu 3</td>
+        </tr>
+        <tr>
+            <td rowspan="2"> Row 1 cell 1</td>
+            <td>Row 1 cell 2</td>
+            <td>Row 1 cell 3</td>
+        </tr>
+        <tr>
+            <td> Row 2 cell 2</td>
+            <td> Row 2 cell 3</td>
+        </tr>
+        <tr>
+            <td colspan="3">Row 3 cell 1</td>
+        </tr>
+
+
+    </table>
+    </body>
+</html>

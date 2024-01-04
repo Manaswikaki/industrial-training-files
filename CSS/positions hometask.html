@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width:300px;
+            height: 400px;
+            border:1px solid;
+        }
+        .a{
+            height:400px; ;
+            width: 1208px; 
+        }
+        .b{
+            width:200px;
+            height:300px;
+             margin-top:20px;
+            margin-left: 40px;
+        }
+        .b1{
+            height: 99px;
+            width:100px;
+            background-color: skyblue;
+            position:static;
+        }
+        .b2{
+            height: 100px;
+            width:100px;
+            background-color: lawngreen;
+            position:static;
+        }
+        .c2{
+            width:100px;
+            height: 100px;
+            position:relative;
+           margin-top:30px;
+           margin-left:30px;
+            background-color: lawngreen;
+
+        }
+        .parent{
+            width: 100px;
+            height: 100px;
+            position:relative;
+            border-right: 0px;
+            
+        }
+        .d3{
+            width:100px;
+            height:99px;
+            position:absolute;
+             margin-left:98px;
+            margin-bottom: 100px; 
+            background-color: lawngreen;
+        }
+        .fix{
+            width: 100px;
+            height: 100px;
+            position: fixed;;
+            background-color: skyblue;
+        }
+
+        .stick{
+            width:200px;
+            height:300px;
+             margin-top:20px;
+            margin-left: 40px;
+            border:1px dotted;
+           
+            overflow-y: scroll;
+            overflow-x: hidden;
+            }
+
+            
+        .s1{
+            width:100px;
+            height:100px;
+            background-color: lawngreen;
+            position:sticky;
+        
+            
+            top:0px;
+            
+        }
+        .s2{
+            width:100px;
+            height:300px;
+            background-color: skyblue;
+            position:static;
+           
+            
+
+        }
+        .s3{
+            width:100px;
+            height:100px;
+            background-color: lawngreen;
+            position:sticky;
+        
+        
+            bottom:0px;
+            /* margin-bottom: 10px; */
+            
+        }
+        .stk{
+                width:280px;
+                height: 300px;
+                margin-top: 20px;
+                
+                border:1px dotted;
+                overflow-x: scroll;
+                
+            }
+        .l2{
+            
+            width:600px;
+            height: 150px;
+            background-color: skyblue;
+            position: static;
+            
+            
+        }
+
+
+       .l1{
+        float:left;
+         width:90px;
+         height: 150px;
+         background-color:lawngreen;
+         position:sticky;
+        left:0px;
+        /* inset-inline-start: left; */
+          margin-left: 50px; 
+        
+          
+       }
+       .l3{
+
+        float:right;
+         width:90px;
+         height: 150px;
+         background-color: lawngreen;
+         inset-inline-start: left;
+         position:sticky;
+        right:10px;
+        
+          margin-right: 50px; 
+         
+        
+       }
+       .c{
+        width: 200px;
+        height: 200px;
+        background-color: lawngreen;
+        position:fixed;
+        margin-left:1550px ;
+       }
+       .f{
+                
+        height:100px;
+        width: 100px;
+        background-color:lightgreen;
+        border:3px solid lightgreen;
+        float:right;
+        position:fixed;
+        top:10px;
+        right:10px;
+}
+        
+    </style>
+</head>
+<body>
+    <div class="c"><center><br><br><br><h3>fixed</h3></center></div>
+
+    <div class="a">
+        <div style="float: left;"><center><h3 >position:static</h3></center>
+            <div class="b">
+            <div class="b1"></div>
+            <div class="b2"><center><br><br> static</center></div>
+            <div class="b1"></div>
+            </div>
+        </div>
+        <div style="float: left;"><center><h3>position:relative</h3></center>
+            <div class="b">
+                <div class="b1"></div>
+                <div class="parent"> <div class="c2"><br><br><center>relative</center></div></div>
+                <div class="b1"></div>
+             </div>   
+        </div>
+        <div style="float: left;"><center><h3>position:absolute</h3></center>
+            <div class="b">
+                <div class="b1"></div>
+                <div class="b1">
+                <div class="d3"><center><br><br>absolute</center></div></div>
+             </div>
+        </div>
+         <div style="float: right;"><center><h3>position:fixed</h3></center>
+            <div class="b">
+                <div class="fix"></div>
+                <div class="fix" style="margin-top: 100px;"></div>
+            </div>
+        </div>
+         
+    </div>
+    <div class="a">
+        <div style="float: left;"><center><h3>position:sticky(top)</center></h3>
+            <div class="stick">
+                <div class="b1"></div>
+                <div class="s1"><br><center>sticky(top)</center></div>
+                <div class="s2"></div>
+            </div>
+        </div>
+        <div style="float: left;"><h3><center>position:sticky(bottom)</center></h3>
+            <div class="stick">
+                
+                <div class="s2"></div>
+                
+                <div class="s3"><br><center>sticky(bottom)</center></div>
+                <div class="b1"></div>
+                
+             </div>   
+        </div>
+        <div style="float: left;"><center><h3>position:sticky(left)</h3></center>
+        <div class="stk">
+           
+            <div class="l1"><br><center><br><br>sticky(left)</center></div>
+             <div class="l2"></div> 
+        </div>
+        </div>
+         <div style="float: right;"><center><h3>position:sticky(right)</h3></center>
+            <div class="stk">
+               
+                <div class="l3"><br><br><br><center>sticky(right)</center></div>
+                <div class="l2"></div> 
+            </div>
+        </div>
+             </div>
+             <div class="f"><h4>fixed</h4></div>
+
+</body>
+</html

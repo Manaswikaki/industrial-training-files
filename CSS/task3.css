@@ -1,0 +1,50 @@
+
+.a{
+    height:600px;
+    width:1340px;
+    position:fixed;
+}
+.a1{
+    height:400px;
+    width:300px;
+    background-color:white;
+    float:left;
+    border-radius:15px;;
+    margin-left:110px;
+    margin-top:100px;
+}
+.a11{
+    height:100px;
+    width:100px;
+    border:2px solid white;
+    margin-top:30px;
+    margin-left:90px;
+    background-color: blue;
+
+}
+.b{
+    height:40px;
+    width:130px;
+    background-color:blue;
+    color:white;
+    border:1px white;
+    border-radius: 25px;
+}
+.c1{
+    font-size:30px;
+}
+.i{
+    height:150px;
+    width:200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.p{
+    color:rgb(185, 179, 179);
+}
+.i{
+    height:100px;
+    width:100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

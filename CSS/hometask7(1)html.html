@@ -1,0 +1,294 @@
+<html>
+    <head>
+        <title>PositionTask</title>
+        <style>
+            .a{
+                width:1000px;
+                height:300px;
+                border:1px solid black;
+            }
+            .b{
+                width:250px;
+                height:300px;
+                border:1px solid black;
+                float:left;
+            }
+            .c{
+                width:250px;
+                height:300px;
+                border:1px solid black;
+                float:left;
+            }
+            .d{
+                width:250px;
+                height:300px;
+                border:1px solid black;
+                float: left;
+            }
+            .e{
+                width:247px;
+                height:300px;
+                border:1px solid black;
+                margin-left:753px;
+            }
+            .b1{
+                width:200px;
+                height:220px;
+                border:1px solid rgb(184, 177, 177);
+                margin-left: 10px;
+            }
+            .b2{
+                width:100px;
+                height:70px;
+                border: 2px solid blue;
+                background-color: rgb(110, 207, 245);
+            }
+            .b3{
+                width:100px;
+                height:70px;
+                border: 2px solid lawngreen;
+                background-color: rgb(22, 236, 39);
+                position:static;
+            }
+            .b4{
+                width:100px;
+                height:70px;
+                border: 2px solid blue;
+                background-color: rgb(110, 207, 245);
+            }
+            .c1{
+                width:200px;
+                height:220px;
+                border:1px solid rgb(184, 177, 177);
+                margin-left: 10px;
+            }
+            .c2{
+                width:100px;
+                height:70px;
+                border: 2px solid blue;
+                background-color: rgb(110, 207, 245);
+            }
+            .c3{
+                width:100px;
+                height:70px;
+                border: 2px solid lawngreen;
+                background-color: rgb(22, 236, 39);
+                position: relative;
+                top:20px;
+                left:20px;
+            }
+            .c4{
+                width:100px;
+                height:70px;
+                border: 2px solid blue;
+                background-color: rgb(110, 207, 245);
+                position: sticky;
+            }
+            .d1{
+                width:200px;
+                height:220px;
+                border:1px solid rgb(184, 177, 177);
+                margin-left: 10px;
+            }
+            .d2{
+                width:100px;
+                height:70px;
+                border: 2px solid blue;
+                background-color: rgb(110, 207, 245);
+            }
+            .d3{
+                width:90px;
+                height:70px;
+                border: 2px solid lawngreen;
+                background-color: rgb(22, 236, 39);
+                position: absolute;
+                left:619px;
+                margin-left: 10px;
+
+            }
+            .d4{
+                width:100px;
+                height:70px;
+                border: 2px solid blue;
+                background-color: rgb(110, 207, 245);
+            }
+            .d5{
+                width:90px;
+                height:70px;
+                border:1px solid lawngreen;
+                float:right;
+                margin-left: 10px;
+            }
+            .e1{
+                width:200px;
+                height:220px;
+                border:1px solid rgb(184, 177, 177);
+                margin-left: 10px;
+            }
+            .e2{
+                width:100px;
+                height:70px;
+                border: 2px solid blue;
+                background-color: rgb(110, 207, 245);
+            }
+            .e3{
+                width:100px;
+                height:70px;
+                border: 2px solid lawngreen;
+                background-color: rgb(22, 236, 39);
+                position: fixed;
+                top:0px;
+                right:0px;
+            }
+            .e4{
+                width:100px;
+                height:70px;
+                border: 2px solid blue;
+                background-color: rgb(110, 207, 245);
+            }
+
+            .p{
+                width:1000px;
+                height:900px;
+                border:1px solid black;
+            }
+            .p1{
+                width:250px;
+                height:250px;
+                border:1px solid black;
+                float:left;
+            }
+            .p2{
+                width:250px;
+                height:250px;
+                border:1px solid black;
+                float:left;
+            }
+            .p3{
+                width:250px;
+                height:250px;
+                border:1px solid black;
+                float:left;
+            }
+            .p4{
+                width:247px;
+                height:250px;
+                border:1px solid black;
+                margin-left:753px;
+            }
+            .k1{
+                width:200px;
+                height:160px;
+                border:1px solid black;
+                margin-left: 10px;
+            }
+            .k2{
+                width:200px;
+                height:160px;
+                border:1px solid black;
+                margin-left: 10px;
+            }
+            .k3{
+                width:200px;
+                height:160px;
+                border:1px solid black;
+                margin-left: 10px;
+            }
+            .k4{
+                width:200px;
+                height:160px;
+                border:1px solid black;
+                margin-left: 10px;
+            }
+            .k21{
+                width:80px;
+                height:50px;
+                border: 2px solid blue;
+                background-color: rgb(110, 207, 245);
+            }
+            .k22{
+                width:80px;
+                height:50px;
+                border: 2px solid lawngreen;
+                background-color: rgb(22, 236, 39);
+                position: sticky;
+                bottom:200px;
+            }
+            .k23{
+                width:80px;
+                height:50px;
+                border: 2px solid blue;
+                background-color: rgb(110, 207, 245);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="a">
+            <div class="b">
+                <h3 style="margin-left: 10px;">Position:Static</h3>
+                <div class="b1">
+                    <div class="b2"></div>
+                    <div class="b3">
+                        <center><h2>static</h2></center>
+                    </div>
+                    <div class="b4"></div>
+                </div>
+            </div>
+            <div class="c">
+                <h3 style="margin-left: 10px;">Position:Relative</h3>
+                <div class="c1">
+                    <div class="c2">
+                    </div>
+                    <div class="c3">
+                        <center><h2>Relative</h2></center>
+                    </div>
+                    <div class="c4"></div>
+                </div>
+            </div>
+            <div class="d">
+                <h3 style="margin-left: 10px;">Position:Absolute</h3>
+                <div class="d1">
+                    <div class="d2"></div>
+                    <div class="d5"></div>
+                    <div class="d3">
+                        <center><h2><small>Absoulute</small></h2></center>
+                    </div>
+                    <div class="d4"></div>
+                </div>
+            </div>
+            <div class="e">
+                <h3 style="margin-left: 10px;">Position:Fixed</h3>
+                <div class="e1">
+                    <div class="e2"></div>
+                    <div class="e3">
+                        <center><h2>Fixed</h2></center>
+                    </div>
+                    <div class="e4"></div>
+                </div>
+
+            </div>
+        </div>
+        <div class="p">
+            <div class="p1">
+                <h3 style="margin-left: 10px;">Position:sticky(top)</h3>
+                   <div class="k2">
+                    <div class="k21"></div>
+                    <div class="k22"></div>
+                    <div class="k23"></div>
+                   </div>
+            </div>
+            <div class="p2">
+                <h3 style="margin-left: 10px;">Position:sticky(bottom)</h3>
+                   <div class="k3"></div>
+            </div>
+            <div class="p3">
+                <h3 style="margin-left: 10px;">Position:sticky(left)</h3>
+                   <div class="k4"></div>
+            </div>
+            <div class="p4">
+                   <h3 style="margin-left: 10px;">Position:sticky(right)</h3>
+                   <div class="k1"></div>
+            </div>
+        </div>
+    </body>
+</html>
