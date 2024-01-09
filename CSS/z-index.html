@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-Index</title>
+    <style>
+        .a{
+            height:200px;
+            width:200px;
+            background-color: red;
+            position:relative;
+            float:left;
+            top:180px;
+            left:50px;
+            z-index:1;
+        }
+        .b{
+            height:200px;
+            width:200px;
+            background-color: blue;
+            position:relative;
+            float:left;
+        }
+        .c{
+            height:200px;
+            width:200px;
+            background-color: green;
+            position:absolute;
+            float:left;
+            z-index:3;
+            top:250px;
+            left:100px;
+        }
+    </style>
+</head>
+<body>
+    <center><h1>Z-Index</h1></center><br><hr><br>
+<div class="a"></div>
+<div class="b"></div>
+<div class="c"></div>
+    
+</body>
+</html>

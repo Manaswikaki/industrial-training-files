@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations</title>
+    <style>
+        #a{
+            height:200px;
+            width:200px;
+            background-color: lightblue;
+            border:2px solid hotpink;
+            float:left;
+            margin:30px;
+            border-radius: 75px;
+            position:relative;
+            /*animation-name: ani;
+            animation-duration: 5s;
+            animation-iteration-count: 3;
+            animation-delay: 2s;
+            animation-direction: reverse;
+            animation-timing-function:linear ;
+            animation-fill-mode: backwards;/*backwards;forwards*/
+            animation:ani 3s 2 reverse 1s  ;/*name duration iteartion direction delay*/
+
+        }
+        @keyframes ani{
+            /*from{
+                background-color: burlywood;
+            }
+            to{
+                background-color: rgb(236, 121, 121);
+                width: 300px;
+            }*/
+            0%{
+                background-color:rgb(122, 192, 216) ;top:0px;left:0px;
+            }
+            25%{
+                background-color:rgb(80, 201, 86) ;top:0px;left:600px;
+            }
+            50%{
+                background-color:rgb(216, 205, 110) ;top:300px;left:0px;
+            }
+            75%{
+                background-color:rgb(231, 157, 71) ;top:300px;left:600px;
+            }
+            100%{
+                background-color:rgb(235, 103, 63) ;top:0px;left:0px;
+            }
+
+        }
+
+    </style>
+</head>
+<body>
+    <center><h2>Animations in CSS</h2></center><hr>
+    <div id="a"></div>
+</body>
+</html>

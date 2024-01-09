@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transitions</title>
+    <style>
+        #a{
+            height:200px;
+            width:200px;
+            background-color: lightblue;
+            border:2px solid hotpink;
+            float:left;
+            margin:30px;
+            transition: all 3s;
+            /*transition-duration: 3s;
+            transition-property: ;
+            transition-timing-function: ; eas-in,ease-out,linear
+            transition-delay: ;*/
+        }
+        #a:hover{
+            width:300px;
+            height:250px;
+            background-color: honeydew;
+            border-radius:100px;
+        }
+        #b{
+            height:200px;
+            width:200px;
+            background-color: lightblue;
+            border:2px solid hotpink;
+            float:left;
+            margin:30px;
+            transition-property: background-color ;
+        }
+        #b:hover{
+            background-color: red;
+        }
+        #c{
+            height:200px;
+            width:200px;
+            background-color: lightblue;
+            border:2px solid hotpink;
+            float:left;
+            margin:30px;
+            transition-duration: 5s;
+        }
+        #c:hover{
+            width:300px;
+        }
+    </style>
+</head>
+<body>
+    <center><h2>Transitions in CSS</h2></center><hr>
+    <div id="a"></div>
+    <div id="b"></div>
+    <div id="c"></div>
+    
+</body>
+</html>
