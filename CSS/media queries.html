@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media queries</title>
+    <style>
+        #a{
+            height:200px;
+            width:1000px;
+            border:2px solid blue;
+            border-radius:5px;
+            font-size:20px;
+            font-weight:bold;
+        
+        }
+        @media screen and (min-width:600px) and (max-width:750px){
+            body{
+                background-color:rgb(214, 132, 132);
+            }
+            div{
+                background-color:pink;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="a"></div>
+</body>
+</html>
