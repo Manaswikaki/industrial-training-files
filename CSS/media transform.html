@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+    <style>
+        /*body{
+            margin:0px;
+            padding:0px;
+        }*/
+        #main{
+            height:900px;
+            width:1050px;
+            border:2px solid red;
+        }
+        #a{
+            height:200px;
+            width:200px;
+            background-color: rgb(85, 85, 79);
+            
+            float:left;
+            border:1px solid black;
+        }
+       /* @media screen and (min-width:500) and (max-width:800px){
+            a{
+                margin:0px;
+            }
+        }*/
+        #a:hover{
+            transform:translate(40px,100px);
+        }
+        #b{
+            height:200px;
+            width:200px;
+            background-color: burlywood;  
+            
+            float:left;
+            border:1px solid black;
+        }
+        #b:hover{
+            transform:translateX(50px);
+        }
+        #c{
+            height:200px;
+            width:200px;
+            background-color: rgb(231, 231, 45);
+            
+            float:left;
+            border:1px solid black;
+         }
+         #c:hover{
+            transform: translateY(40px);
+         }
+         #d{
+            height:200px;
+            width:200px;
+            background-color: rgb(112, 214, 108);
+            
+            float:left;
+            border:1px solid black;
+         }
+         #d:hover{
+            transform: rotate(60deg)/*positive value for clk wise and negative value for anti cl wise direction*/
+         }
+         #d1{
+            height:200px;
+            width:200px;
+            background-color: rgb(112, 214, 108);
+            
+            float:left;
+            border:1px solid black;
+        }
+        #d1:hover{
+            transform: rotateX(100deg);
+        }
+        #d2{
+            height:200px;
+            width:200px;
+            background-color: rgb(112, 214, 108);
+            
+            float:left;
+            border:1px solid black;
+        }
+        #d2:hover{
+            transform: rotateY(50deg);
+        }
+         #e{
+            height:200px;
+            width:200px;
+            background-color: rgb(231, 45, 123);
+           
+            float:left;
+            border:1px solid black;
+         }
+         #e:hover{
+            transform: scale(2);/*scale can take single value or x(width) and y(height) values*/
+         }
+         #e1{
+            height:200px;
+            width:200px;
+            background-color: rgb(218, 142, 129);
+           
+            float:left;
+            border:1px solid black;
+         }
+         #e1:hover{
+            transform: scaleX(2);
+         }
+         #e2{
+            height:200px;
+            width:200px;
+            background-color: rgb(218, 142, 129);
+          
+            float:left;
+            border:1px solid black;
+         }
+         #e2:hover{
+            transform: scaleY(2);
+         }
+         #f{
+            height:200px;
+            width:200px;
+            background-color: rgb(204, 50, 23);
+            
+            float:left;
+            border:1px solid black;
+         }
+         #f:hover{
+            transform: skew(10deg,30deg);
+         }
+         #f1{
+            height:200px;
+            width:200px;
+            background-color: rgb(221, 226, 153);
+           
+            float:left;
+            border:1px solid black;
+         }
+         #f1:hover{
+            transform: skewX(20deg);
+         }
+         #f2{
+            height:200px;
+            width:200px;
+            background-color: rgb(240, 241, 172);
+           
+            float:left;
+            border:1px solid black;
+         }
+         #f2:hover{
+            transform: skewY(10deg);
+         }
+         #g{
+            height:200px;
+            width:200px;
+            background-color: rgb(126, 202, 130);
+            
+            float:left;
+            border:1px solid black;
+         }
+         #g:hover{
+            transform: matrix();
+         }
+        
+         #h{
+            height:200px;
+            width:200px;
+            background-color: rgb(167, 123, 238);
+            
+            float:left;
+            border:1px solid black;
+         }
+         #i{
+            height:200px;
+            width:200px;
+            background-color: rgb(231, 132, 226);
+           
+            float:left;
+            border:1px solid black;
+         }
+         #j{
+            height:200px;
+            width:200px;
+            background-color: rgb(92, 201, 186);
+          
+            float:left;
+            border:1px solid black;
+         }
+         #h:hover{
+         transform: matrix(2,-0.3,0,2,50,0);
+         }
+        /* @media screen and (min-width:100) and (max-width:500){
+            a,b,c,d,d1,d2,e,e1,e2,f,f1,f2,h,g{
+                width:100%;
+            }
+         }*/
+    </style>
+</head>
+<body>
+    
+    <div id="a">Translate</div>
+    <div id="b">TranslateX</div>
+    <div id="c">translateY</div>
+    <div id="d">Rotate</div>
+    <div id="d1">rotateX</div>
+    <div id="d2">rotateY</div>
+    <div id="e">Scale</div>
+    <div id="e1">ScaleX</div>
+    <div id="e2">ScaleY</div>
+    <div id="f">Skew</div>
+    <div id="f1">SkewX</div>
+    <div id="f2">SkewY</div>
+    <div id="h">matrix</div> <!--matrix(scaleX(),skewY(),skewX(),scaleY(),translateX(),translateY())-->
+    <div id="g">3D</div>
+    
+</body>
+</html>
