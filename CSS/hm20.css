@@ -1,0 +1,131 @@
+.a{
+    height:589px;
+    width:1340px;
+    border:none;
+    position:fixed; 
+}
+.b{
+    height:589px;
+    width:500px;
+    background-color:lightseagreen;
+    float:left;
+    color:white;
+}
+.c{
+    height:500px;
+    width:500px;
+    border:none;
+    margin-top:50px;
+    margin-left:700px;
+    background-color: rgb(255, 252, 252);
+    }
+    .d{
+        height:80px;
+        width:80px;
+        border:none;
+        margin:20px;
+        background-color: lightseagreen;
+        margin-bottom:100px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .color{
+        color:rgb(219, 206, 206);
+    }
+    .bu{
+        height:40px;
+        width:180px;
+        background-color: lightseagreen;
+        border-radius: 25px;
+        color:rgb(219, 206, 206);
+        border:1px solid white;
+    }
+    .co1{
+        color:lightseagreen;
+    }
+    .e{
+        height:50px;
+        width:50px;
+        border-radius: 20px;
+        border:hidden;
+        margin:5px;
+        float:left;
+        margin-left:160px;
+    }
+    .f{
+        height:50px;
+        width:50px;
+        border-radius: 20px;
+        border:hidden;
+        margin:5px;
+        float:left;
+    }
+    .g{
+        height:50px;
+        width:50px;
+        border-radius: 20px;
+        border:hidden;
+        margin:5px;
+        float:left;
+    }
+    co2{
+        color:lightgray;
+    }
+    .i{
+        height:50px;
+        width:300px;
+        border:hidden;
+        padding:5px;
+        float:left;
+        margin-left:100px;
+        color:gray;
+        border-radius:15px;
+        background-color: whitesmoke;
+        margin-top:5px;
+    }
+    .i2{
+        height:50px;
+        width:300px;
+        border:hidden;
+        padding:5px;
+        float:left;
+        margin-left:100px;
+        color:gray;
+        border-radius:15px;
+        background-color: whitesmoke;
+        margin-top:30px;
+    }
+    .j{
+        height:20px;
+        width:20px;
+        background-color: white;
+        float:left;
+      
+    }
+    .img{
+        height:20px;
+        width:20px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .bu1{
+        height:50px;
+        width:200px;
+        background-color: lightseagreen;
+        border-radius: 25px;
+        color:rgb(219, 206, 206);
+        border:1px solid white;
+        margin-top:20px;
+    }
+    .im{
+        height:30px;
+        width:30px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .k{
+        height:80px;
+        width:80px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
